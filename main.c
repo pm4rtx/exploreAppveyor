@@ -91,7 +91,20 @@
     PRINT_MACRO_VALUE(_DEBUG)
 #endif
 
+#include <stddef.h>
+#include <stdint.h>
+
 int main(void)
 {
+    int8_t a;
+    uint8_t b;
+    int16_t c;
+    uint16_t d;
+    int32_t e;
+    uint32_t f;
+    int64_t g;
+    uint64_t h;
+    size_t i;
+    wchar_t j;
     return 0;
 }
